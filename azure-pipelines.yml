@@ -44,5 +44,5 @@ stages:
             inputs:
               appName: $(WebAppName)
               azureSubscription: Resource Manager - Tailspin - Space Game
-              imageName: $(RegistryName)/$webRepository):$(Build.BuildId)
+              imageName: $(RegistryName)/$(webRepository):$(Build.BuildId)
         
